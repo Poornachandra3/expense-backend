@@ -2,5 +2,5 @@ name: Continuous Integration
 on: [push]
 jobs:
   call-continuous-integration-reusable:
-    uses: Poornachandra3/github-reusable-workflow/.github/workflows/ci.yml@main
+    uses: Poorna32/github-reusable-workflow/.github/workflows/ci.yml@main
 
