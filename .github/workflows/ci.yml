@@ -4,6 +4,6 @@ jobs:
   call-continuous-integration-reusable:
     uses: Poornachandra3/github-reusable-workflows/.github/workflows/ci.yml@main
     with:
-      project_name:expense-backend
+      project_name: expense-backend
 
 
