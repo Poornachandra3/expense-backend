@@ -1,0 +1,14 @@
+name: Release
+on:
+  push:
+    tags:
+      - "*"
+jobs:
+  call-continuous-integration-reusable:
+    uses: Poornachandra3/github-reusable-workflows/.github/workflows/relaese.yml@main
+    with:
+      project_name: expense-backend
+      npm_install: true
+      release_archive_file: "*.js package.json schema VERSION"
+    secrets: inherit
+
