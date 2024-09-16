@@ -19,7 +19,5 @@ node('ci-server') {
     stage('Sonar Scan Code Review') {
       print 'OK'
     }
-
   }
-
 }
